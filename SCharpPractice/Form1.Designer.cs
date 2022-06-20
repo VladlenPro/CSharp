@@ -30,6 +30,8 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.btnEventPractice = new System.Windows.Forms.Button();
+            this.btnREfVal = new System.Windows.Forms.Button();
+            this.btnStruct = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -52,11 +54,33 @@
             this.btnEventPractice.UseVisualStyleBackColor = true;
             this.btnEventPractice.Click += new System.EventHandler(this.btnEventPractice_Click);
             // 
+            // btnREfVal
+            // 
+            this.btnREfVal.Location = new System.Drawing.Point(26, 73);
+            this.btnREfVal.Name = "btnREfVal";
+            this.btnREfVal.Size = new System.Drawing.Size(75, 23);
+            this.btnREfVal.TabIndex = 2;
+            this.btnREfVal.Text = "Ref Val";
+            this.btnREfVal.UseVisualStyleBackColor = true;
+            this.btnREfVal.Click += new System.EventHandler(this.btnREfVal_Click);
+            // 
+            // btnStruct
+            // 
+            this.btnStruct.Location = new System.Drawing.Point(26, 102);
+            this.btnStruct.Name = "btnStruct";
+            this.btnStruct.Size = new System.Drawing.Size(75, 23);
+            this.btnStruct.TabIndex = 3;
+            this.btnStruct.Text = "Struct";
+            this.btnStruct.UseVisualStyleBackColor = true;
+            this.btnStruct.Click += new System.EventHandler(this.btnStruct_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnStruct);
+            this.Controls.Add(this.btnREfVal);
             this.Controls.Add(this.btnEventPractice);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
@@ -69,5 +93,7 @@
 
         private Button button1;
         private Button btnEventPractice;
+        private Button btnREfVal;
+        private Button btnStruct;
     }
 }
