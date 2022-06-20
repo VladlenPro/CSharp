@@ -19,5 +19,17 @@ namespace SCharpPractice
             Operate operate = new Operate();
             operate.init();
         }
+
+        private void btnREfVal_Click(object sender, EventArgs e)
+        {
+            RefVal refVal = new RefVal();
+            refVal.Run();
+        }
+
+        private void btnStruct_Click(object sender, EventArgs e)
+        {
+            StractClass stractClass = new StractClass();
+            stractClass.Run();
+        }
     }
 }
