@@ -32,6 +32,7 @@
             this.btnEventPractice = new System.Windows.Forms.Button();
             this.btnREfVal = new System.Windows.Forms.Button();
             this.btnStruct = new System.Windows.Forms.Button();
+            this.btnLinq = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -74,11 +75,22 @@
             this.btnStruct.UseVisualStyleBackColor = true;
             this.btnStruct.Click += new System.EventHandler(this.btnStruct_Click);
             // 
+            // btnLinq
+            // 
+            this.btnLinq.Location = new System.Drawing.Point(28, 132);
+            this.btnLinq.Name = "btnLinq";
+            this.btnLinq.Size = new System.Drawing.Size(75, 23);
+            this.btnLinq.TabIndex = 4;
+            this.btnLinq.Text = "Linq";
+            this.btnLinq.UseVisualStyleBackColor = true;
+            this.btnLinq.Click += new System.EventHandler(this.btnLinq_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnLinq);
             this.Controls.Add(this.btnStruct);
             this.Controls.Add(this.btnREfVal);
             this.Controls.Add(this.btnEventPractice);
@@ -95,5 +107,6 @@
         private Button btnEventPractice;
         private Button btnREfVal;
         private Button btnStruct;
+        private Button btnLinq;
     }
 }

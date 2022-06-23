@@ -31,5 +31,13 @@ namespace SCharpPractice
             StractClass stractClass = new StractClass();
             stractClass.Run();
         }
+
+        private void btnLinq_Click(object sender, EventArgs e)
+        {
+            LinqExample linqExample = new LinqExample();
+            linqExample.Run();
+            linqExample.Run2();
+            linqExample.Run3();
+        }
     }
 }
