@@ -39,5 +39,17 @@ namespace SCharpPractice
             linqExample.Run2();
             linqExample.Run3();
         }
+
+        private void btnExtention_Click(object sender, EventArgs e)
+        {
+            ExtentionMethods extentionMethods = new ExtentionMethods();
+            extentionMethods.Run();
+        }
+
+        private void btnGarbageCollector_Click(object sender, EventArgs e)
+        {
+            GarbageCollector garbageCollector = new GarbageCollector();
+            garbageCollector.Run(); 
+        }
     }
 }
