@@ -33,6 +33,8 @@
             this.btnREfVal = new System.Windows.Forms.Button();
             this.btnStruct = new System.Windows.Forms.Button();
             this.btnLinq = new System.Windows.Forms.Button();
+            this.btnExtention = new System.Windows.Forms.Button();
+            this.btnGarbageCollector = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -85,11 +87,33 @@
             this.btnLinq.UseVisualStyleBackColor = true;
             this.btnLinq.Click += new System.EventHandler(this.btnLinq_Click);
             // 
+            // btnExtention
+            // 
+            this.btnExtention.Location = new System.Drawing.Point(28, 159);
+            this.btnExtention.Name = "btnExtention";
+            this.btnExtention.Size = new System.Drawing.Size(115, 23);
+            this.btnExtention.TabIndex = 5;
+            this.btnExtention.Text = "Extention method";
+            this.btnExtention.UseVisualStyleBackColor = true;
+            this.btnExtention.Click += new System.EventHandler(this.btnExtention_Click);
+            // 
+            // btnGarbageCollector
+            // 
+            this.btnGarbageCollector.Location = new System.Drawing.Point(26, 187);
+            this.btnGarbageCollector.Name = "btnGarbageCollector";
+            this.btnGarbageCollector.Size = new System.Drawing.Size(117, 23);
+            this.btnGarbageCollector.TabIndex = 6;
+            this.btnGarbageCollector.Text = "GarbageCollector";
+            this.btnGarbageCollector.UseVisualStyleBackColor = true;
+            this.btnGarbageCollector.Click += new System.EventHandler(this.btnGarbageCollector_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnGarbageCollector);
+            this.Controls.Add(this.btnExtention);
             this.Controls.Add(this.btnLinq);
             this.Controls.Add(this.btnStruct);
             this.Controls.Add(this.btnREfVal);
@@ -108,5 +132,7 @@
         private Button btnREfVal;
         private Button btnStruct;
         private Button btnLinq;
+        private Button btnExtention;
+        private Button btnGarbageCollector;
     }
 }
