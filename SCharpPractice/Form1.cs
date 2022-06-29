@@ -51,5 +51,23 @@ namespace SCharpPractice
             GarbageCollector garbageCollector = new GarbageCollector();
             garbageCollector.Run(); 
         }
+
+        private void btnCheck_Click(object sender, EventArgs e)
+        {
+            Check check = new Check();
+            check.Run();
+        }
+
+        private void ntbAsIs_Click(object sender, EventArgs e)
+        {
+            IsAs isAs = new IsAs();
+            isAs.Run();
+        }
+
+        private void btnDispose_Click(object sender, EventArgs e)
+        {
+            ExampleIDispose exampleIDispose = new ExampleIDispose();
+            exampleIDispose.Run();
+        }
     }
 }

@@ -35,6 +35,9 @@
             this.btnLinq = new System.Windows.Forms.Button();
             this.btnExtention = new System.Windows.Forms.Button();
             this.btnGarbageCollector = new System.Windows.Forms.Button();
+            this.btnCheck = new System.Windows.Forms.Button();
+            this.ntbAsIs = new System.Windows.Forms.Button();
+            this.btnDispose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -107,11 +110,44 @@
             this.btnGarbageCollector.UseVisualStyleBackColor = true;
             this.btnGarbageCollector.Click += new System.EventHandler(this.btnGarbageCollector_Click);
             // 
+            // btnCheck
+            // 
+            this.btnCheck.Location = new System.Drawing.Point(26, 218);
+            this.btnCheck.Name = "btnCheck";
+            this.btnCheck.Size = new System.Drawing.Size(75, 23);
+            this.btnCheck.TabIndex = 7;
+            this.btnCheck.Text = "Check";
+            this.btnCheck.UseVisualStyleBackColor = true;
+            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
+            // 
+            // ntbAsIs
+            // 
+            this.ntbAsIs.Location = new System.Drawing.Point(27, 248);
+            this.ntbAsIs.Name = "ntbAsIs";
+            this.ntbAsIs.Size = new System.Drawing.Size(75, 23);
+            this.ntbAsIs.TabIndex = 8;
+            this.ntbAsIs.Text = "AsIs";
+            this.ntbAsIs.UseVisualStyleBackColor = true;
+            this.ntbAsIs.Click += new System.EventHandler(this.ntbAsIs_Click);
+            // 
+            // btnDispose
+            // 
+            this.btnDispose.Location = new System.Drawing.Point(28, 280);
+            this.btnDispose.Name = "btnDispose";
+            this.btnDispose.Size = new System.Drawing.Size(75, 23);
+            this.btnDispose.TabIndex = 9;
+            this.btnDispose.Text = "Dispose";
+            this.btnDispose.UseVisualStyleBackColor = true;
+            this.btnDispose.Click += new System.EventHandler(this.btnDispose_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnDispose);
+            this.Controls.Add(this.ntbAsIs);
+            this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.btnGarbageCollector);
             this.Controls.Add(this.btnExtention);
             this.Controls.Add(this.btnLinq);
@@ -134,5 +170,8 @@
         private Button btnLinq;
         private Button btnExtention;
         private Button btnGarbageCollector;
+        private Button btnCheck;
+        private Button ntbAsIs;
+        private Button btnDispose;
     }
 }
