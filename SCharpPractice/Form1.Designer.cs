@@ -38,6 +38,8 @@
             this.btnCheck = new System.Windows.Forms.Button();
             this.ntbAsIs = new System.Windows.Forms.Button();
             this.btnDispose = new System.Windows.Forms.Button();
+            this.btnType = new System.Windows.Forms.Button();
+            this.btnIndexer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -140,11 +142,33 @@
             this.btnDispose.UseVisualStyleBackColor = true;
             this.btnDispose.Click += new System.EventHandler(this.btnDispose_Click);
             // 
+            // btnType
+            // 
+            this.btnType.Location = new System.Drawing.Point(26, 309);
+            this.btnType.Name = "btnType";
+            this.btnType.Size = new System.Drawing.Size(75, 23);
+            this.btnType.TabIndex = 10;
+            this.btnType.Text = "Type";
+            this.btnType.UseVisualStyleBackColor = true;
+            this.btnType.Click += new System.EventHandler(this.btnType_Click);
+            // 
+            // btnIndexer
+            // 
+            this.btnIndexer.Location = new System.Drawing.Point(27, 337);
+            this.btnIndexer.Name = "btnIndexer";
+            this.btnIndexer.Size = new System.Drawing.Size(75, 23);
+            this.btnIndexer.TabIndex = 11;
+            this.btnIndexer.Text = "Indexer";
+            this.btnIndexer.UseVisualStyleBackColor = true;
+            this.btnIndexer.Click += new System.EventHandler(this.btnIndexer_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnIndexer);
+            this.Controls.Add(this.btnType);
             this.Controls.Add(this.btnDispose);
             this.Controls.Add(this.ntbAsIs);
             this.Controls.Add(this.btnCheck);
@@ -173,5 +197,7 @@
         private Button btnCheck;
         private Button ntbAsIs;
         private Button btnDispose;
+        private Button btnType;
+        private Button btnIndexer;
     }
 }

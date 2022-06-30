@@ -69,5 +69,18 @@ namespace SCharpPractice
             ExampleIDispose exampleIDispose = new ExampleIDispose();
             exampleIDispose.Run();
         }
+
+        private void btnType_Click(object sender, EventArgs e)
+        {
+            TypeExample typeExample = new TypeExample();
+            typeExample.Run();
+            typeExample.Run1();
+        }
+
+        private void btnIndexer_Click(object sender, EventArgs e)
+        {
+            Indexer indexer = new Indexer();
+            indexer.Run();
+        }
     }
 }
