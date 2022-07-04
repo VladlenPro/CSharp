@@ -82,5 +82,11 @@ namespace SCharpPractice
             Indexer indexer = new Indexer();
             indexer.Run();
         }
+
+        private void btnGeneric_Click(object sender, EventArgs e)
+        {
+            GenericsE genericsE = new GenericsE();
+            genericsE.Run();
+        }
     }
 }

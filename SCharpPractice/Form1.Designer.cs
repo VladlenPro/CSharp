@@ -40,6 +40,7 @@
             this.btnDispose = new System.Windows.Forms.Button();
             this.btnType = new System.Windows.Forms.Button();
             this.btnIndexer = new System.Windows.Forms.Button();
+            this.btnGeneric = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -162,11 +163,22 @@
             this.btnIndexer.UseVisualStyleBackColor = true;
             this.btnIndexer.Click += new System.EventHandler(this.btnIndexer_Click);
             // 
+            // btnGeneric
+            // 
+            this.btnGeneric.Location = new System.Drawing.Point(26, 366);
+            this.btnGeneric.Name = "btnGeneric";
+            this.btnGeneric.Size = new System.Drawing.Size(75, 23);
+            this.btnGeneric.TabIndex = 12;
+            this.btnGeneric.Text = "Generic";
+            this.btnGeneric.UseVisualStyleBackColor = true;
+            this.btnGeneric.Click += new System.EventHandler(this.btnGeneric_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnGeneric);
             this.Controls.Add(this.btnIndexer);
             this.Controls.Add(this.btnType);
             this.Controls.Add(this.btnDispose);
@@ -199,5 +211,6 @@
         private Button btnDispose;
         private Button btnType;
         private Button btnIndexer;
+        private Button btnGeneric;
     }
 }
