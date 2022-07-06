@@ -88,5 +88,11 @@ namespace SCharpPractice
             GenericsE genericsE = new GenericsE();
             genericsE.Run();
         }
+
+        private void btnSeriDesria_Click(object sender, EventArgs e)
+        {
+            JsonSerializationExample jsonSerializationExample = new JsonSerializationExample(); 
+            jsonSerializationExample.Run();
+        }
     }
 }
