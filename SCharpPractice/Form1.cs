@@ -94,5 +94,11 @@ namespace SCharpPractice
             JsonSerializationExample jsonSerializationExample = new JsonSerializationExample(); 
             jsonSerializationExample.Run();
         }
+
+        private void btnFileStream_Click(object sender, EventArgs e)
+        {
+            MemoryStreamEaxmple memoryStreamEaxmple = new MemoryStreamEaxmple();
+            memoryStreamEaxmple.Run();
+        }
     }
 }
