@@ -42,6 +42,7 @@
             this.btnIndexer = new System.Windows.Forms.Button();
             this.btnGeneric = new System.Windows.Forms.Button();
             this.btnSeriDesria = new System.Windows.Forms.Button();
+            this.btnFileStream = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -184,11 +185,22 @@
             this.btnSeriDesria.UseVisualStyleBackColor = true;
             this.btnSeriDesria.Click += new System.EventHandler(this.btnSeriDesria_Click);
             // 
+            // btnFileStream
+            // 
+            this.btnFileStream.Location = new System.Drawing.Point(27, 425);
+            this.btnFileStream.Name = "btnFileStream";
+            this.btnFileStream.Size = new System.Drawing.Size(116, 23);
+            this.btnFileStream.TabIndex = 14;
+            this.btnFileStream.Text = "Memory Stream";
+            this.btnFileStream.UseVisualStyleBackColor = true;
+            this.btnFileStream.Click += new System.EventHandler(this.btnFileStream_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnFileStream);
             this.Controls.Add(this.btnSeriDesria);
             this.Controls.Add(this.btnGeneric);
             this.Controls.Add(this.btnIndexer);
@@ -225,5 +237,6 @@
         private Button btnIndexer;
         private Button btnGeneric;
         private Button btnSeriDesria;
+        private Button btnFileStream;
     }
 }
